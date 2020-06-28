@@ -1,0 +1,14 @@
+park abc1 BIKE 2
+park abc2 CAR 1
+park abc3 BUS 1
+park abc4 CAR 0
+park abc5 CAR 0
+park abc6 CAR 1
+park abc7 BUS 4
+unpark abc1
+unpark abc2
+unpark abc3
+unpark abc4
+unpark abc5
+unpark abc6
+unpark abc7
