@@ -6,11 +6,11 @@ package com.raju;
 public class App {
     public static void main(String[] args) throws Exception {
         TestClass callback = new TestClass();
-        doWork(callback, "My Message");
+        doWork(callback, "Raj ");
     }
 
-    public static void doWork(TestClass myCallback, String msg) {
-        System.out.println("doing work " + msg);
-        myCallback.myFunction("Raj");
+    public static void doWork(TestClass myCallback, String param) {
+        System.out.println("doing work ");
+        myCallback.myFunction(param);
     }
 }
