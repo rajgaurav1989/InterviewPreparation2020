@@ -5,11 +5,11 @@ package com.raju;
  */
 public class App {
     public static void main(String[] args) throws Exception {
-        MyCallback callback = new MyCallbackImpl();
+        TestClass callback = new TestClass();
         doWork(callback, "My Message");
     }
 
-    public static void doWork(MyCallback myCallback, String msg) {
+    public static void doWork(TestClass myCallback, String msg) {
         System.out.println("doing work " + msg);
         myCallback.myFunction("Raj");
     }
